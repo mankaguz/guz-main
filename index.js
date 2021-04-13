@@ -457,7 +457,7 @@ guzbot.on('message-new', async (mek) => {
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
       heheh = ms(Date.now() - waktuafk) 
-      guzbot.sendMessage(mek.key.remoteJid,`@6285656214208 lagi Offline!\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi nanti`, MessageType.text,{contextInfo:{ mentionedJid: ['6285751056816@s.whatsapp.net'],'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': "0@s.whatsapp.net", 'remoteJid': '6283136505591-1614953337@g.us', 'quotedMessage': {"imageMessage": {"caption": "*OFFLINE*", 'jpegThumbnail': fs.readFileSync('./jadi.jpeg')}}}})
+      guzbot.sendMessage(mek.key.remoteJid,`Mohon Maaf AGUZ sedang Offline!\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi nanti`, MessageType.text,{contextInfo:{ mentionedJid: ['6285751056816@s.whatsapp.net'],'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': "0@s.whatsapp.net", 'remoteJid': '6283136505591-1614953337@g.us', 'quotedMessage': {"imageMessage": {"caption": "*OFFLINE*", 'jpegThumbnail': fs.readFileSync('./jadi.jpeg')}}}})
       }
     }   
     if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -470,7 +470,7 @@ guzbot.on('message-new', async (mek) => {
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
             heheh = ms(Date.now() - waktuafk)
-            guzbot.sendMessage(mek.key.remoteJid,`@6285656214208 lagi Offline!\n\n *Alasan :* ${alasanafk}\n *Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi nanti`, MessageType.text,{contextInfo:{ mentionedJid: ['6285751056816@s.whatsapp.net'],'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': "0@s.whatsapp.net", 'remoteJid': '6283136505591-1614953337@g.us', 'quotedMessage': {"imageMessage": {"caption": "*OFFLINE*", 'jpegThumbnail': fs.readFileSync('./jadi.jpeg')}}}})
+            guzbot.sendMessage(mek.key.remoteJid,`Mohon Maaf AGUZ sedang Offline!\n\n *Alasan :* ${alasanafk}\n *Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi nanti`, MessageType.text,{contextInfo:{ mentionedJid: ['6285751056816@s.whatsapp.net'],'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': "0@s.whatsapp.net", 'remoteJid': '6283136505591-1614953337@g.us', 'quotedMessage': {"imageMessage": {"caption": "*OFFLINE*", 'jpegThumbnail': fs.readFileSync('./jadi.jpeg')}}}})
           }
         }
             }
