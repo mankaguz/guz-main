@@ -41,7 +41,7 @@ const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const afk = JSON.parse(fs.readFileSync('./database/afk.json'))
 
-prefix = ''
+prefix = '#'
 fake = '*_CIE DI DELETE_*'
 fakes  = 'AGUZBOT'
 nomornye = '0'
